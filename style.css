@@ -1,1 +1,89 @@
+body{
+margin:0;
+font-family:Poppins;
+background:#0f172a;
+color:white;
+}
 
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#020617;
+}
+
+nav a{
+margin:0 10px;
+text-decoration:none;
+color:white;
+}
+
+.hero{
+text-align:center;
+padding:120px 20px;
+background:linear-gradient(135deg,#2563eb,#7c3aed);
+}
+
+.play-btn{
+display:inline-block;
+padding:15px 30px;
+background:white;
+color:black;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+margin-top:20px;
+}
+
+section{
+padding:60px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+.team-grid{
+display:grid;
+grid-template-columns:1fr;
+gap:30px;
+}
+
+.team-list{
+list-style:none;
+padding:0;
+}
+
+.team-list li{
+background:#1e293b;
+margin:5px 0;
+padding:10px;
+border-radius:8px;
+}
+
+.links{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.links a{
+background:#2563eb;
+padding:12px 20px;
+border-radius:10px;
+text-decoration:none;
+color:white;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+}
+
+@media (min-width:700px){
+
+.team-grid{
+grid-template-columns:1fr 1fr;
+}
+
+}
